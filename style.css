@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+    margin: 0 auto;
+    width: 90%; /* Usando porcentagem para ajustar automaticamente */
+    max-width: 600px; /* Limite máximo de largura */
+}
+
+input {
+    border-radius: 12px;
+    width: 100%; /* Faz o input ocupar toda a largura disponível */
+    max-width: 400px; /* Limite máximo de largura */
+    height: 30px;
+    font-size: 25px;
+}
+
+p {
+    font-size: 1.5em; /* Fonte ajustável */
+    color: white; /* Melhor contraste */
+}
+
+.caixa {
+    background-color: grey;
+    color: rgb(52, 48, 2);
+    text-align: center;
+    padding: 20px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    p {
+        font-size: 1.2em; /* Ajusta o tamanho do texto para telas menores */
+    }
+
+    .caixa {
+        margin-top: 20px; /* Reduz o espaço superior em telas menores */
+    }
+
+    input {
+        height: 40px; /* Ajusta a altura do input */
+    }
+}
